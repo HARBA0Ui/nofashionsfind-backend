@@ -21,7 +21,7 @@ const app= express()
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-    origin: "https://nofashionfinds-front.vercel.app", 
+    origin: "https://nofashionfinds.vercel.app", 
     credentials: true
 }))
 
